@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T05:09:50.193Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.1" etag="rINwmfPvnn8zSFRqZp--" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T08:03:41.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4X2Z9RTn9YxDzPCLIYoI" version="23.1.1" type="github">
   <diagram name="Page-1" id="oxuLW_X76Q5w0RuZrdXl">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-1" value="LCD will display Press Start Button" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-2" value="Switch ON Power Supply(0-30V)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endWidth=8;endSize=5.67;" edge="1" parent="1" source="IYdtczbGGSeZNlVLVyFE-2" target="IYdtczbGGSeZNlVLVyFE-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="520" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-5" value="User to press the Start Button and check to reset the E-Stop Switch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="510" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-7" value="Speed of all motors will Ramp UP. Current and RPM will be displayed in LCD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="630" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endWidth=8;endSize=5.67;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="450" as="sourcePoint" />
+            <mxPoint x="379.5" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="379.5" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endWidth=8;endSize=5.67;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="570" as="sourcePoint" />
+            <mxPoint x="379.5" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="379.5" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Flowchart for Test Bench Motors&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-12" value="User to press the Stop / E-Stop switch which will Ramp DOWN the speed of Motors" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="860" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endWidth=8;endSize=5.67;" edge="1" parent="1" target="IYdtczbGGSeZNlVLVyFE-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="690" as="sourcePoint" />
+            <mxPoint x="379.5" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="379.5" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-14" value="END" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-15" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endWidth=8;endSize=5.67;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="920" as="sourcePoint" />
+            <mxPoint x="379.5" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="379.5" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-18" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IYdtczbGGSeZNlVLVyFE-19" value="In case of Emergency press E-Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="750" width="200" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
